@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.82.0">
+  <title>Carousel Template · Bootstrap v5.0</title>
+  
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+  
+  
+  
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+    
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  
+  
+  <!-- Custom styles for this template -->
+  <link href="css/carousel.css" rel="stylesheet">
+</head>
+<body>
+  
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light-grey">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="image/logo.png" alt="" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Caroussel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#activites">Activités</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#decouvrir">Découvrir</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="newsletter" placeholder="Adresse e-mail..." aria-label="Adresse e-mail...">
+            <button class="btn btn-outline-success" type="submit">S'abonner</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Laissez-vous tenter par les Maldives</h1>
+              <p>Sautez le pas en vous offrant le voyage de vos rêves.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">En savoir plus</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Des noces inoubliables.</h1>
+              <p>Visitez ce petit bout de paradis avec votre moitié.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">En savoir plus</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Un mariage unique</h1>
+              <p>Célébrez votre mariage dans un décor paradisiaque.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">En savoir plus</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    
+    <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+      
+      <div class="container marketing">
+        
+        <section id="activites">
+          <!-- Three columns of text below the carousel -->
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="photo" src="image/rencontre.jpeg" width="140" height="140">
+              
+              <h2>Rencontres</h2>
+              <p>Découvrez, nourissez les bébes requins inoffensifs et les raies de près.</p>
+              <p><a class="btn btn-secondary" href="#">Je découvre &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="photo" src="image/plongee.jpeg" width="140" height="140">
+              
+              <h2>Plongée</h2>
+              <p>Allez à la recherche des tortues, poissons multicolores et autres rares animaux marins.</p>
+              <p><a class="btn btn-secondary" href="#">Je découvre &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="photo" src="image/kayak.jpeg" width="140" height="140">
+              
+              <h2>Kayak</h2>
+              <p>Profitez des eaux turquoises et transparentes par le biais de nos activités nautiques.</p>
+              <p><a class="btn btn-secondary" href="#">Je découvre &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
+        </section>
+        
+        <!-- START THE FEATURETTES -->
+        
+        <hr class="featurette-divider">
+        
+        <section id=decouvrir>
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Notre paysage. <span class="text-muted">Vous n'en croirez pas vos yeux...</span></h2>
+            <p class="lead">Profitez d'un <em><strong>cadre reposant unique</strong></em> qui attire de plus en plus de touristes. Ce petit bout de paradis en fait la <em><strong>principale destination pour les amoureux</strong></em>. Faites le vide autour de vous et laissez vous tenter par cet incroyable environnement.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="photo" src="image/paysage.jpeg" width="500" height="500">
+            
+          </div>
+        </div>
+        
+        <hr class="featurette-divider">
+        
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Nos villas sur pilotis. <span class="text-muted">Un rêve qui devient réalité...</span></h2>
+            <p class="lead">Se réveiller dans un <strong>lieu paradisiaque</strong> face aux étendue cristallines, descendre quelques marches pour rejoindre poissons multicolores, raies et tortues, puis attendre le coucher de soleil dans l'intimité de sa <strong>terrasse privée</strong>. <em>Faites de ce rêve une réalité</em> en vous laissant tenter par une somptueuse villa sur pilotis, posée sur un lagon paradisiaque.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="photo" src="image/villas.jpeg" width="450" height="500">
+            
+          </div>
+        </div>
+        
+        <hr class="featurette-divider">
+        
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Immortalisez vos moments. <span class="text-muted">Des souvenirs pleins la tête...</span></h2>
+            <p class="lead"> Lunettes de plongée sous-marine, GoPro ou autre caméra étanche, drone photo-vidéo, perche à selfie, disque dur externe etc. pour penser à <strong>capturer les bons moments sur l'île</strong>.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="photo" src="image/gopro.jpeg" width="500" height="500">
+          </div>
+        </div>
+      </section>
+        
+        <hr class="featurette-divider">
+        
+        <!-- /END THE FEATURETTES -->
+        
+      </div><!-- /.container -->
+      
+      
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Haut de page</a></p>
+        <p>&copy; 2021 St. Regis Hotels & Resorts, Inc. &middot; <a href="#">Confidentialité</a> &middot; <a href="#">Termes & Conditions</a></p>
+      </footer>
+    </main>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+    
+  </body>
+  </html>
+  
