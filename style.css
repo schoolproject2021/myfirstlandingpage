@@ -1,0 +1,19 @@
+.logo {
+  width: 150px;
+}
+
+.bg-light-grey {
+  background-color: gray;
+}
+
+h2 {
+  color: darkcyan;
+}
+
+.lead {
+  color: black;
+}
+
+p {
+  color: black;
+}
